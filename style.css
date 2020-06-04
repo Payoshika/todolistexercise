@@ -1,3 +1,47 @@
 body{
-      font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.container-fluid{
+  width: 50%;
+}
+
+/* button styles */
+.btn{
+  background-color: #009bee;
+}
+
+/* active/completed toggle switch styles */
+.toggle-switch{
+  right: 8%;
+  top: 24%;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.toggle-switch :hover{
+  font-size: 1.5rem;
+}
+
+.completed {
+  background-color: green;
+  color: white;
+}
+
+/* delete switch styles */
+.delete-switch{
+  padding: 0 4px;
+  font-size: 0.9rem;
+  right: 2%;
+  top: 28%;
+}
+
+/* addition switch styles */
+.new-task{
+  width: 90%;
+}
+
+.add-button{
+  padding: .25rem .50rem;
 }

@@ -7,15 +7,57 @@
     </script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./fontawsomeicon/css/all.css">
      <link rel="stylesheet" href="style.css">
     <title>todo list exercise</title>
 
   </head>
   <body>
-  <h1>hi</h1>
-
-
-
+  <div class="container-fluid my-2">
+    <h2>Todo Lists</h2>
+    <div class="row w-100">
+      <div class="col-12 d-flex flex-grow-1">
+        <div class="form-check form-check-inline">
+          <input type="checkbox" class="form-check-input" id="all">
+          <label for="all" class="form-check-label">all</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="checkbox" class="form-check-input" id="all">
+          <label for="all" class="form-check-label">pending</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="checkbox" class="form-check-input" id="all">
+          <label for="all" class="form-check-label">completed</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+  <div class="row w-100">
+    <div class="card w-100">
+      <ul class="list-group list-group-flush">
+        <li class="task-view list-group-item w-100 position-relative">task1
+            <span class="toggle-switch position-absolute"><i class="far fa-check-circle rounded-circle"></i></span>
+            <button class="delete-switch btn btn-primary position-absolute"><i class="fas fa-trash-alt"></i></button>
+        </li>
+        <li class="task-view list-group-item w-100 position-relative">task2task2task2
+          <span class="toggle-switch position-absolute"><i class="far fa-check-circle rounded-circle"></i></span>
+          <button class="delete-switch btn btn-primary position-absolute"><i class="fas fa-trash-alt"></i></button>
+        </li>
+        <li class="task-view list-group-item w-100 position-relative">task3task3task3task3task3
+          <span class="toggle-switch position-absolute"><i class="far fa-check-circle rounded-circle"></i></span>
+          <button class="delete-switch btn btn-primary position-absolute"><i class="fas fa-trash-alt"></i></button>
+        </li>
+      </ul>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item w-100 position-relative">
+          <input class="new-task" type="text" placeholder="what is your new task?">
+          <button class="add-button btn btn-light rounded-circle text-white"><i class="fas fa-plus-circle"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
 
   <script type="text/javascript" src="motion.js">
   </script>
