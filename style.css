@@ -45,3 +45,11 @@ body{
 .add-button{
   padding: .25rem .50rem;
 }
+
+.hide {
+  display: none;
+}
+
+.show{
+  display: block;
+}

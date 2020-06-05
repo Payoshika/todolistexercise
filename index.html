@@ -18,15 +18,15 @@
     <div class="row w-100">
       <div class="col-12 d-flex flex-grow-1">
         <div class="form-check form-check-inline">
-          <input type="checkbox" class="form-check-input" id="all">
+          <input type="radio" class="form-check-input" name ="select" id="all" checked="checked">
           <label for="all" class="form-check-label">all</label>
         </div>
         <div class="form-check form-check-inline">
-          <input type="checkbox" class="form-check-input" id="all">
+          <input type="radio" class="form-check-input" name ="select" id="all">
           <label for="all" class="form-check-label">pending</label>
         </div>
         <div class="form-check form-check-inline">
-          <input type="checkbox" class="form-check-input" id="all">
+          <input type="radio" class="form-check-input" name ="select" id="all">
           <label for="all" class="form-check-label">completed</label>
         </div>
       </div>
@@ -35,19 +35,7 @@
   <div class="container-fluid">
   <div class="row w-100">
     <div class="card w-100">
-      <ul class="list-group list-group-flush">
-        <li class="task-view list-group-item w-100 position-relative">task1
-            <span class="toggle-switch position-absolute"><i class="far fa-check-circle rounded-circle"></i></span>
-            <button class="delete-switch btn btn-primary position-absolute"><i class="fas fa-trash-alt"></i></button>
-        </li>
-        <li class="task-view list-group-item w-100 position-relative">task2task2task2
-          <span class="toggle-switch position-absolute"><i class="far fa-check-circle rounded-circle"></i></span>
-          <button class="delete-switch btn btn-primary position-absolute"><i class="fas fa-trash-alt"></i></button>
-        </li>
-        <li class="task-view list-group-item w-100 position-relative">task3task3task3task3task3
-          <span class="toggle-switch position-absolute"><i class="far fa-check-circle rounded-circle"></i></span>
-          <button class="delete-switch btn btn-primary position-absolute"><i class="fas fa-trash-alt"></i></button>
-        </li>
+      <ul class="list-group task-list list-group-flush">
       </ul>
       <ul class="list-group list-group-flush">
         <li class="list-group-item w-100 position-relative">
